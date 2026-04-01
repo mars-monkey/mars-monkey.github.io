@@ -1,0 +1,25 @@
+title = "Mars Monkey"
+description = "Personal projects"
+
+base_url = "https://mars-monkey.github.io"
+
+theme = "linkita"
+
+# === Minimal Header: Only title + theme switcher ===
+[extra]
+header_menu_name = ""          # This removes all navigation links
+show_search = false            # Hide search icon if it appears
+
+# Header buttons control (Linkita specific)
+[extra.header_buttons]
+left = ["site_title"]
+right = ["theme_select"]
+
+# Your info
+[extra.profiles.mars_monkey]
+name = "Mars Monkey"
+bio = "Building things I find interesting."
+avatar = "/images/avatar.jpg"   # Put your photo in static/images/avatar.jpg
+
+# Optional: footer cleanup
+footer_credit = "Made with Zola + Linkita"
